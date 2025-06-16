@@ -9,3 +9,6 @@ from sklearn import metrics
 
 data_ch = pd.read_csv('./data/raw/601988.SH.csv')
 data_google = pd.read_csv('./data/raw/GOOG.csv')
+
+data_ch.index = pd.to_datetime(data_ch['trade_date'], format='%Y%m%d') 
+data_google.index = pd.to_datetime(data_google['Date'],format='%m/%d/%Y')

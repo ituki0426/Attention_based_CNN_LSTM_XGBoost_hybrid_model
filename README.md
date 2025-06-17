@@ -10,6 +10,14 @@
 
 - the stock price of Back of China (601988.SH) in Chinese stock market
 
+![](./img/stock_prices.png)
+
+上記のデータに1次と２次の差分処理を施したグラフ
+
+![](./img/ch_diff.png)
+
+![](./img/google_diff.png)
+
 ## ADF検定の結果
 
 601988.SHの元データに対してADF検定を実行した結果
